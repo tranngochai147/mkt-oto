@@ -4,6 +4,8 @@
  */
 
 import { CheckCircle2, Award, UserCheck } from 'lucide-react';
+// @ts-ignore
+import toyotaVelozImg from '../assets/images/toyota_veloz_2026_1779291230811.png';
 
 export default function PersonalBranding() {
   return (
@@ -107,7 +109,7 @@ export default function PersonalBranding() {
               {/* High Quality Car Showroom Image */}
               <div className="aspect-video bg-slate-100 rounded-2xl mb-4 flex items-center justify-center overflow-hidden border border-slate-150 relative group/img">
                 <img 
-                  src="/src/assets/images/toyota_veloz_2026_1779291230811.png" 
+                  src={toyotaVelozImg} 
                   alt="Toyota Veloz Cross 2026 inside a modern showroom"
                   className="w-full h-full object-cover rounded-xl group-hover/img:scale-105 transition-transform duration-700"
                   referrerPolicy="no-referrer"
