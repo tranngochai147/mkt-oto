@@ -34,18 +34,18 @@ export default function Solutions({ onNavigateToSandbox }: SolutionsProps) {
   ];
 
   return (
-    <section id="solutions" className="py-20 lg:py-28 bg-[#e7eefe]/50 border-b border-slate-100">
+    <section id="solutions" className="py-20 lg:py-28 bg-[#eef5ff]/90 border-b border-sky-100/80">
       <div className="max-w-[1440px] mx-auto px-6">
         
         {/* Header Title */}
         <div className="text-center mb-16">
-          <h2 className="font-sans font-extrabold text-2xl sm:text-3xl lg:text-4xl text-slate-900 tracking-tight mb-4">
+          <h2 className="font-sans font-extrabold text-3xl sm:text-4xl lg:text-[42px] text-slate-900 tracking-normal mb-4">
             GIẢI PHÁP MARKETING TOÀN DIỆN CHO SALE Ô TÔ
           </h2>
-          <p className="text-slate-600 max-w-2xl mx-auto text-sm sm:text-base leading-relaxed">
+          <p className="text-slate-600 max-w-3xl mx-auto text-base sm:text-lg leading-relaxed mt-4">
             Sở hữu "cỗ máy" tự động quét khách hàng chất lượng từ mọi ngóc ngách internet và đưa thẳng họ vào phễu bám đuổi chăm sóc tự động.
           </p>
-          <div className="w-24 h-1 bg-[#ff6b00] mx-auto rounded-full mt-6" />
+          <div className="w-24 h-1.5 bg-blue-600 mx-auto rounded-full mt-6" />
         </div>
 
         {/* Content Layout */}

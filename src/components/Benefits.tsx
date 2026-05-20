@@ -40,7 +40,7 @@ export default function Benefits() {
     {
       icon: <Timer className="w-8 h-8 text-blue-600" />,
       title: 'Tiết kiệm 70% thời gian',
-      desc: 'Để phần mềm lo các công việc tay chân lặp lại vô vị để giành thời gian tư vấn đỉnh cao, chốt deal.'
+      desc: 'Để phần mềm lo các công việc tay chân lặp lại vô vị để dành thời gian tư vấn đỉnh cao, chốt deal.'
     },
     {
       icon: <Globe className="w-8 h-8 text-blue-600" />,
@@ -50,17 +50,17 @@ export default function Benefits() {
   ];
 
   return (
-    <section className="py-20 lg:py-28 bg-slate-50 border-b border-slate-100">
+    <section className="py-20 lg:py-28 bg-[#f0f7ff]/95 border-b border-sky-100/80">
       <div className="max-w-[1440px] mx-auto px-6">
         
         {/* Title and line */}
         <div className="text-center mb-16">
-          <h2 className="font-sans font-extrabold text-2xl sm:text-3xl lg:text-4xl text-slate-900 tracking-tight uppercase mb-4">
+          <h2 className="font-sans font-extrabold text-3xl sm:text-4xl lg:text-[42px] text-slate-900 tracking-normal uppercase mb-4 leading-tight">
             TẠI SAO SALE Ô TÔ PHẢI DÙNG?
           </h2>
-          <div className="w-24 h-1.5 bg-[#ff6b00] mx-auto rounded-full" />
-          <p className="text-slate-500 mt-4 text-sm sm:text-base max-w-2xl mx-auto">
-            Hội tụ đầy đủ những tính năng ưu bạt giúp tiết kiệm thời gian, tối ưu hóa lợi nhuận và gia tăng năng lực cạnh tranh cho mọi tư vấn viên.
+          <div className="w-24 h-1.5 bg-blue-600 mx-auto rounded-full mt-4" />
+          <p className="text-slate-600 mt-5 text-base sm:text-lg max-w-3xl mx-auto leading-relaxed">
+            Hội tụ đầy đủ những tính năng ưu việt giúp tiết kiệm thời gian, tối ưu hóa lợi nhuận và gia tăng năng lực cạnh tranh cho mọi tư vấn viên.
           </p>
         </div>
 

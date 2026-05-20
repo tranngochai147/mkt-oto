@@ -38,7 +38,7 @@ export default function DemoSandbox() {
   // Facebook Poster State
   const [postContent, setPostContent] = useState('🔥 SIÊU ƯU ĐÃI THÁNG NÀY 🔥\nĐặt cọc hôm nay nhận ngay quà tặng vàng 9999 + Trọn bộ phụ kiện chính hãng trị giá 20 triệu.\n✓ Hỗ trợ trả góp lên đến 85%, thủ tục 5 phút.\n✓ Giao xe tận nhà, đủ màu, đủ phiên bản.\n👉 Inbox em ngay để nhận báo giá lăn bánh tốt nhất khu vực!');
   const [selectedGroups, setSelectedGroups] = useState<string[]>([
-    'Hội Subaru Forester Viêt Nam',
+    'Hội Subaru Forester Việt Nam',
     'Chợ Ô Tô Cũ Hà Nội',
     'Cộng Đồng Cư Dân Vinhomes Ocean Park'
   ]);
@@ -341,7 +341,7 @@ export default function DemoSandbox() {
   const activeInbox = inboxes.find(i => i.id === selectedInboxId);
 
   return (
-    <section className="py-20 lg:py-24 bg-slate-50 text-slate-800 border-b border-slate-100">
+    <section className="py-20 lg:py-24 bg-gradient-to-b from-sky-50 via-blue-50/40 to-sky-100/60 text-slate-800 border-b border-sky-100/80">
       <div className="max-w-[1440px] mx-auto px-6">
         
         {/* Section Header */}
@@ -777,7 +777,7 @@ export default function DemoSandbox() {
                     <div>
                       <span className="block text-slate-600 font-bold text-xs mb-2 uppercase tracking-wider">Danh Sách Nhóm Mục Tiêu</span>
                       <div className="space-y-2 bg-slate-50 p-4 rounded-xl border border-slate-200 max-h-[180px] overflow-y-auto shadow-inner">
-                        {['Hội Subaru Forester Viêt Nam', 'Chợ Ô Tô Cũ Hà Nội', 'Cộng Đồng Cư Dân Vinhomes Ocean Park', 'Hội VF8 & VF9 Club Việt Nam', 'Hội Tài Xế SUBARU Toàn Quốc'].map((gr) => (
+                        {['Hội Subaru Forester Việt Nam', 'Chợ Ô Tô Cũ Hà Nội', 'Cộng Đồng Cư Dân Vinhomes Ocean Park', 'Hội VF8 & VF9 Club Việt Nam', 'Hội Tài Xế SUBARU Toàn Quốc'].map((gr) => (
                           <label key={gr} className="flex items-center gap-2.5 text-xs text-slate-700 font-medium cursor-pointer">
                             <input
                               type="checkbox"

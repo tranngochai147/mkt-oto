@@ -13,11 +13,9 @@ export default function Footer() {
         {/* Brand Column */}
         <div className="space-y-4">
           <div className="flex items-center gap-2">
-            <span className="w-8 h-8 rounded-lg bg-[#ff6b00] flex items-center justify-center text-white font-black text-lg">
-              M
-            </span>
-            <span className="font-sans font-extrabold text-xl font-black text-white">
-              MKT <span className="text-[#ff6b00]">Software</span>
+            <span className="font-sans font-black text-xl tracking-tight flex items-center gap-1">
+              <span className="bg-gradient-to-r from-[#00abec] to-[#0172f3] bg-clip-text text-transparent">MKT</span>
+              <span className="text-white font-bold">Software</span>
             </span>
           </div>
           <p className="text-sm font-medium text-slate-400 leading-relaxed">

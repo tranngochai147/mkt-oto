@@ -88,7 +88,7 @@ export default function RegisterModal({ isOpen, onClose }: RegisterModalProps) {
           <div>
             {/* Pill Indicator */}
             <div className="w-full bg-[#1b75ff] text-white text-xs sm:text-[13px] font-black py-2.5 px-4 rounded-xl text-center shadow-md mb-4 uppercase tracking-wider">
-              +600.000 Khách hàng đã phục vụ
+              +6.000+ Khách hàng đã phục vụ
             </div>
 
             {/* Lower row of audience badges */}

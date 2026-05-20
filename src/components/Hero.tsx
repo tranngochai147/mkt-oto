@@ -21,11 +21,11 @@ export default function Hero({ onNavigateToSandbox, onOpenRegister }: HeroProps)
   ];
 
   return (
-    <section className="relative overflow-hidden bg-gradient-to-b from-slate-50 via-slate-100/50 to-white pt-24 pb-16 lg:pt-36 lg:pb-24 border-b border-slate-100">
+    <section className="relative overflow-hidden bg-gradient-to-b from-sky-100/50 via-blue-50/50 to-sky-50/40 pt-24 pb-16 lg:pt-36 lg:pb-24 border-b border-sky-100/70">
       
       {/* Decorative Blur Orbs */}
-      <div className="absolute -top-40 -right-40 w-[450px] h-[450px] bg-orange-100/40 rounded-full blur-3xl -z-10" />
-      <div className="absolute top-1/2 -left-60 w-[500px] h-[500px] bg-blue-50/50 rounded-full blur-3xl -z-10" />
+      <div className="absolute -top-40 -right-40 w-[450px] h-[450px] bg-[#00c6ff]/10 rounded-full blur-3xl -z-10" />
+      <div className="absolute top-1/2 -left-60 w-[500px] h-[500px] bg-blue-100/40 rounded-full blur-3xl -z-10" />
 
       <div className="max-w-[1440px] mx-auto px-6 grid lg:grid-cols-12 gap-12 items-center">
         
@@ -37,9 +37,9 @@ export default function Hero({ onNavigateToSandbox, onOpenRegister }: HeroProps)
             Tự động hóa Sale Ô tô 2026
           </div>
 
-          <h1 className="font-sans font-extrabold text-3xl sm:text-4xl md:text-5.5xl text-slate-900 leading-[1.125] tracking-tight mb-6">
+          <h1 className="font-sans font-extrabold text-4xl sm:text-5xl md:text-[58px] text-slate-900 leading-[1.3] tracking-normal mb-6">
             KHÔNG CẦN CHẠY ADS QUÁ NHIỀU — 
-            <span className="block text-transparent bg-clip-text bg-gradient-to-r from-orange-600 via-[#ff6b00] to-amber-500 mt-2">
+            <span className="block text-transparent bg-clip-text bg-gradient-to-r from-orange-600 via-[#ff6b00] to-amber-500 mt-2 py-2 px-1 leading-normal overflow-visible">
               VẪN CÓ KHÁCH MỚI MỖI NGÀY
             </span>
           </h1>

@@ -40,16 +40,16 @@ export default function PainPoints() {
   ];
 
   return (
-    <section id="features" className="py-20 lg:py-28 bg-white border-b border-slate-100">
+    <section id="features" className="py-20 lg:py-28 bg-[#f0f7ff]/90 border-b border-sky-100/80">
       <div className="max-w-[1440px] mx-auto px-6">
         
         {/* Section Header */}
         <div className="text-center mb-16">
-          <h2 className="font-sans font-extrabold text-2xl sm:text-3xl lg:text-4xl text-slate-900 uppercase tracking-tight mb-4">
+          <h2 className="font-sans font-extrabold text-3xl sm:text-4xl lg:text-[42px] text-slate-900 uppercase tracking-normal mb-4 leading-tight">
             SALE Ô TÔ ĐANG MẤT KHÁCH VÌ ĐIỀU NÀY
           </h2>
-          <div className="w-24 h-1.5 bg-[#ff6b00] mx-auto rounded-full" />
-          <p className="text-slate-500 mt-4 text-sm sm:text-base max-w-2xl mx-auto">
+          <div className="w-24 h-1.5 bg-blue-600 mx-auto rounded-full mt-4" />
+          <p className="text-slate-600 mt-5 text-base sm:text-lg max-w-3xl mx-auto leading-relaxed">
             Kinh doanh ô tô ngày càng khốc liệt. Nếu bạn vẫn đang tìm khách theo cách thủ công truyền thống, đối thủ đã dùng công cụ tự động chốt đơn từ lâu.
           </p>
         </div>
@@ -59,7 +59,7 @@ export default function PainPoints() {
           {pains.map((pain, idx) => (
             <div 
               key={idx} 
-              className="group p-8 rounded-2xl bg-slate-50 border border-slate-100/80 hover:bg-rose-50/20 hover:border-rose-200/50 hover:shadow-lg transition-all duration-300"
+              className="group p-8 rounded-2xl bg-white border border-sky-100 shadow-sm hover:bg-sky-50/50 hover:border-blue-200 hover:shadow-lg transition-all duration-300"
             >
               <div className="p-3 bg-white w-fit rounded-xl shadow-sm mb-6 group-hover:scale-110 transition-transform">
                 {pain.icon}

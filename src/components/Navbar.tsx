@@ -42,13 +42,11 @@ export default function Navbar({ currentView, onNavigate, onOpenRegister }: Navb
         {/* Logo */}
         <div 
           onClick={() => onNavigate('landing')}
-          className="flex items-center gap-2 cursor-pointer group"
+          className="flex items-center gap-2 cursor-pointer group animate-fade-in"
         >
-          <span className="w-8 h-8 rounded-lg bg-[#ff6b00] flex items-center justify-center text-white font-black text-lg group-hover:scale-105 transition-transform shadow-md">
-            M
-          </span>
-          <span className="font-sans font-extrabold text-2xl tracking-tight text-slate-900">
-            MKT <span className="text-[#ff6b00]">Software</span>
+          <span className="font-sans font-black text-2xl tracking-tight flex items-center gap-1">
+            <span className="bg-gradient-to-r from-[#00abec] to-[#0056b3] bg-clip-text text-transparent">MKT</span>
+            <span className="text-[#0056b3] font-bold">Software</span>
           </span>
         </div>
 
@@ -85,7 +83,7 @@ export default function Navbar({ currentView, onNavigate, onOpenRegister }: Navb
             ) : (
               <>
                 <Play className="w-3 h-3 text-[#ff6b00]" fill="currentColor" />
-                Chạy thử phầm mềm
+                Chạy thử phần mềm
               </>
             )}
           </button>

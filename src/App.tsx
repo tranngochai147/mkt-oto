@@ -42,7 +42,7 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen bg-[#f9f9ff] flex flex-col justify-between antialiased selection:bg-orange-500 selection:text-white">
+    <div className="min-h-screen bg-[#eef5ff] flex flex-col justify-between antialiased selection:bg-blue-600 selection:text-white">
       
       {/* Top Navigation */}
       <Navbar 
