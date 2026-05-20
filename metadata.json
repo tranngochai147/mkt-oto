@@ -1,0 +1,6 @@
+{
+  "name": "MKT Software - Auto Marketing",
+  "description": "Nền tảng Automation Marketing Tự Động hóa và Quản lý khách hàng tối ưu dành riêng cho Sale Ô tô.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
